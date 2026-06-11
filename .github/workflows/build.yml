@@ -40,9 +40,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: xiao-esp32s3-sense-firmware
-          path: |
-            *.bin
-            build/*.bin
-            firmware/*.bin
-            dist/*.bin
+          path: "**/*.bin"
           if-no-files-found: warn
