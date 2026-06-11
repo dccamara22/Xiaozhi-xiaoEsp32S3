@@ -23,13 +23,13 @@
 #define RESET_NVS_BUTTON_GPIO     GPIO_NUM_NC
 #define RESET_FACTORY_BUTTON_GPIO GPIO_NUM_NC
 
-#define DISPLAY_SDA_PIN GPIO_NUM_5
-#define DISPLAY_SCL_PIN GPIO_NUM_6
-#define DISPLAY_WIDTH   128
-#define DISPLAY_HEIGHT  64
+// #define DISPLAY_SDA_PIN GPIO_NUM_5
+//#define DISPLAY_SCL_PIN GPIO_NUM_6
+//#define DISPLAY_WIDTH   128
+//#define DISPLAY_HEIGHT  64
 
-#define DISPLAY_MIRROR_X true
-#define DISPLAY_MIRROR_Y true
+//#define DISPLAY_MIRROR_X true
+//#define DISPLAY_MIRROR_Y true
 
 /* XIAO ESP32S3 Sense Camera pins */
 #define PWDN_GPIO_NUM     -1
